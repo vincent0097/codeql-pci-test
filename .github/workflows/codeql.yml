@@ -21,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [javascript, python]  # <-- update if needed
+        language: [javascript]  # <-- update if needed
 
     steps:
     - name: Checkout repository
